@@ -1,0 +1,172 @@
+[tabatabai.ar@explorer-02 ~]$ cd /courses/BIOL2406.202710/
+[tabatabai.ar@explorer-02 BIOL2406.202710]$ ls
+data  misc  shared  staff  students
+[tabatabai.ar@explorer-02 BIOL2406.202710]$ cd misc
+[tabatabai.ar@explorer-02 misc]$ ls
+grep_exercise.txt  perm_example.txt
+[tabatabai.ar@explorer-02 misc]$ ls -l
+total 2
+-rw-r--r-- 1 jhenzy users                  189 Sep 24 10:07 grep_exercise.txt
+-rw-r--r-- 1 jhenzy BIOL2406.202710-staff 1056 Sep 24 10:22 perm_example.txt
+[tabatabai.ar@explorer-02 misc]$ mv grep_exercise.txt ~
+mv: cannot remove 'grep_exercise.txt': Permission denied
+[tabatabai.ar@explorer-02 misc]$ cp grep_exercise.txt 
+cp: missing destination file operand after 'grep_exercise.txt'
+Try 'cp --help' for more information.
+[tabatabai.ar@explorer-02 misc]$ cp grep_exercise.txt ~
+[tabatabai.ar@explorer-02 misc]$ cd ~
+[tabatabai.ar@explorer-02 ~]$ ls
+bioinformatics-portfolio  grep_exercise.txt  ondemand
+[tabatabai.ar@explorer-02 ~]$ cd /courses/BIOL2406.202710/
+[tabatabai.ar@explorer-02 BIOL2406.202710]$ ls
+data  misc  shared  staff  students
+[tabatabai.ar@explorer-02 BIOL2406.202710]$ cd misc
+[tabatabai.ar@explorer-02 misc]$ ls -l
+total 2
+-rw-r--r-- 1 jhenzy users                  189 Sep 24 10:07 grep_exercise.txt
+-rw-r--r-- 1 jhenzy BIOL2406.202710-staff 1056 Sep 24 10:22 perm_example.txt
+[tabatabai.ar@explorer-02 misc]$ mv grep_exercise.txt ~
+mv: cannot remove 'grep_exercise.txt': Permission denied
+[tabatabai.ar@explorer-02 misc]$ cd /courses/BIOL2406.202710/
+[tabatabai.ar@explorer-02 BIOL2406.202710]$ ls
+data  misc  shared  staff  students
+[tabatabai.ar@explorer-02 BIOL2406.202710]$ cd students
+[tabatabai.ar@explorer-02 students]$ ls
+ding.jo    fernandes.lui  harel.z  martinezamezaga.p  tabatabai.ar
+fang.xink  galgano.n      jhenzy   mehdiyev.l         wahi.h
+fan.zac    gottschalk.w   mao.al   patel.v9           zheng.je
+[tabatabai.ar@explorer-02 students]$ cd tabatabai.ar
+[tabatabai.ar@explorer-02 tabatabai.ar]$ ls
+AT_DNA_names  sequence_files
+[tabatabai.ar@explorer-02 tabatabai.ar]$ ls -l
+total 1
+-rw-r--r-- 1 tabatabai.ar users                  199 Sep 21 12:57 AT_DNA_names
+drwxr-sr-x 2 tabatabai.ar BIOL2406.202710-staff 4096 Sep 14 13:16 sequence_files
+[tabatabai.ar@explorer-02 tabatabai.ar]$ cd ~
+[tabatabai.ar@explorer-02 ~]$ ls
+bioinformatics-portfolio  grep_exercise.txt  ondemand
+[tabatabai.ar@explorer-02 ~]$ cd bioinformatics-portfolio/
+[tabatabai.ar@explorer-02 bioinformatics-portfolio]$ ls
+README.md
+[tabatabai.ar@explorer-02 bioinformatics-portfolio]$ cp -r bioinformatics-portfolio tabatabai.ar
+cp: cannot stat 'bioinformatics-portfolio': No such file or directory
+[tabatabai.ar@explorer-02 bioinformatics-portfolio]$ cd ~
+[tabatabai.ar@explorer-02 ~]$ cp -r bioinformatics-portfolio/tabatabai.ar
+cp: missing destination file operand after 'bioinformatics-portfolio/tabatabai.ar'
+Try 'cp --help' for more information.
+[tabatabai.ar@explorer-02 ~]$ cp -r bioinformatics-portfolio tabatabai.ar
+[tabatabai.ar@explorer-02 ~]$ cd /courses/BIOL2406.202710/
+[tabatabai.ar@explorer-02 BIOL2406.202710]$ ls
+data  misc  shared  staff  students
+[tabatabai.ar@explorer-02 BIOL2406.202710]$ cd students
+[tabatabai.ar@explorer-02 students]$ ls
+ding.jo    fernandes.lui  harel.z  martinezamezaga.p  tabatabai.ar
+fang.xink  galgano.n      jhenzy   mehdiyev.l         wahi.h
+fan.zac    gottschalk.w   mao.al   patel.v9           zheng.je
+[tabatabai.ar@explorer-02 students]$ cd tabatabai.ar/
+[tabatabai.ar@explorer-02 tabatabai.ar]$ ls
+AT_DNA_names  sequence_files
+[tabatabai.ar@explorer-02 tabatabai.ar]$ cd ~
+[tabatabai.ar@explorer-02 ~]$ ls
+bioinformatics-portfolio  grep_exercise.txt  ondemand  tabatabai.ar
+[tabatabai.ar@explorer-02 ~]$ cd ~
+[tabatabai.ar@explorer-02 ~]$ cd tabatabai.ar
+[tabatabai.ar@explorer-02 tabatabai.ar]$ ls
+README.md
+[tabatabai.ar@explorer-02 tabatabai.ar]$ cd /courses/BIOL2406.202710/
+[tabatabai.ar@explorer-02 BIOL2406.202710]$ cd misc
+[tabatabai.ar@explorer-02 misc]$ ls
+grep_exercise.txt  perm_example.txt
+[tabatabai.ar@explorer-02 misc]$ cp grep_exercise.txt /courses/BIOL2406.202710/students/tabatabai.ar
+[tabatabai.ar@explorer-02 misc]$ cd /courses/BIOL2406.202710/
+[tabatabai.ar@explorer-02 BIOL2406.202710]$ ls
+data  misc  shared  staff  students
+[tabatabai.ar@explorer-02 BIOL2406.202710]$ cd students
+[tabatabai.ar@explorer-02 students]$ ls
+ding.jo    fernandes.lui  harel.z  martinezamezaga.p  tabatabai.ar
+fang.xink  galgano.n      jhenzy   mehdiyev.l         wahi.h
+fan.zac    gottschalk.w   mao.al   patel.v9           zheng.je
+[tabatabai.ar@explorer-02 students]$ cd tabatabai.ar
+[tabatabai.ar@explorer-02 tabatabai.ar]$ ls
+AT_DNA_names  grep_exercise.txt  sequence_files
+[tabatabai.ar@explorer-02 tabatabai.ar]$ grep srun --pty/bin/bash
+grep: unrecognized option '--pty/bin/bash'
+Usage: grep [OPTION]... PATTERNS [FILE]...
+Try 'grep --help' for more information.
+[tabatabai.ar@explorer-02 tabatabai.ar]$ srun --pty bin/bash
+srun: job 10582075 queued and waiting for resources
+srun: job 10582075 has been allocated resources
+slurmstepd: error: execve(): bin/bash: No such file or directory
+srun: error: c0615: task 0: Exited with exit code 2
+[tabatabai.ar@explorer-02 tabatabai.ar]$ pwd
+/courses/BIOL2406.202710/students/tabatabai.ar
+[tabatabai.ar@explorer-02 tabatabai.ar]$ ls
+AT_DNA_names  grep_exercise.txt  sequence_files
+[tabatabai.ar@explorer-02 tabatabai.ar]$ srun --pty bash
+srun: job 10582146 queued and waiting for resources
+srun: job 10582146 has been allocated resources
+[tabatabai.ar@c0693 tabatabai.ar]$ grep ">" grep_exercises.txt
+grep: grep_exercises.txt: No such file or directory
+[tabatabai.ar@c0693 tabatabai.ar]$ grep ">" grep_exercise.txt 
+>seq1_wildtype
+>seq2_mutant
+>seq3_wildtype
+>seq4_control
+[tabatabai.ar@c0693 tabatabai.ar]$ grep -c ">" grep_exercise.txt 
+4
+[tabatabai.ar@c0693 tabatabai.ar]$ grep "GAATTC" grep_exercise.txt 
+ATGGCTAGCTAGGGATCCGAATTCGCGCTAGC
+ATGCCCGGGAATTCGATCGATCGGGCCATGCA
+NNNATGGCTAGCTAGGATCCGAATTCGCGATG
+[tabatabai.ar@c0693 tabatabai.ar]$ grep "GGATCC" grep_exercise.txt 
+ATGGCTAGCTAGGGATCCGAATTCGCGCTAGC
+ATGGCTAGCTAGGGATCCTAATTCGCGCTAGC
+NNNATGGCTAGCTAGGATCCGAATTCGCGATG
+[tabatabai.ar@c0693 tabatabai.ar]$ grep -v "GAATTC" grep_exercise.txt 
+>seq1_wildtype
+>seq2_mutant
+ATGGCTAGCTAGGGATCCTAATTCGCGCTAGC
+>seq3_wildtype
+>seq4_control
+[tabatabai.ar@c0693 tabatabai.ar]$ grep -v "GGATCC" grep_exercise.txt 
+>seq1_wildtype
+>seq2_mutant
+>seq3_wildtype
+ATGCCCGGGAATTCGATCGATCGGGCCATGCA
+>seq4_control
+[tabatabai.ar@c0693 tabatabai.ar]$ grep "N" grep_exercise.txt 
+NNNATGGCTAGCTAGGATCCGAATTCGCGATG
+[tabatabai.ar@c0693 tabatabai.ar]$ grep -n "N" grep_exercise.txt 
+8:NNNATGGCTAGCTAGGATCCGAATTCGCGATG
+[tabatabai.ar@c0693 tabatabai.ar]$ grep "mutant" grep_exercise.txt 
+>seq2_mutant
+[tabatabai.ar@c0693 tabatabai.ar]$ grep -c "mutant" grep_exercise.txt 
+1
+[tabatabai.ar@c0693 tabatabai.ar]$ grep -c "wildtype" grep_exercise.txt 
+2
+[tabatabai.ar@c0693 tabatabai.ar]$ cd ~
+[tabatabai.ar@c0693 ~]$ ls
+bioinformatics-portfolio  grep_exercise.txt  ondemand  tabatabai.ar
+[tabatabai.ar@c0693 ~]$ cp bioinformatics-portfolio /courses/BIOL2406.202710/students/tabatabai.ar/
+cp: -r not specified; omitting directory 'bioinformatics-portfolio'
+[tabatabai.ar@c0693 ~]$ pwd
+/home/tabatabai.ar
+[tabatabai.ar@c0693 ~]$ ls
+bioinformatics-portfolio  grep_exercise.txt  ondemand  tabatabai.ar
+[tabatabai.ar@c0693 ~]$ cd ~
+[tabatabai.ar@c0693 ~]$ ls
+bioinformatics-portfolio  grep_exercise.txt  ondemand  tabatabai.ar
+[tabatabai.ar@c0693 ~]$ cd /courses/BIOL2406.202710/
+[tabatabai.ar@c0693 BIOL2406.202710]$ cd students
+[tabatabai.ar@c0693 students]$ cd tabatabai.ar
+[tabatabai.ar@c0693 tabatabai.ar]$ ls
+AT_DNA_names  grep_exercise.txt  sequence_files
+[tabatabai.ar@c0693 tabatabai.ar]$ cd ~
+[tabatabai.ar@c0693 ~]$ ls
+bioinformatics-portfolio  grep_exercise.txt  ondemand  tabatabai.ar
+[tabatabai.ar@c0693 ~]$ cp -r bioinformatics-portfolio /courses/BIOL2406.202710/students/tabatabai.ar/
+[tabatabai.ar@c0693 ~]$ cd students
+bash: cd: students: No such file or directory
+[tabatabai.ar@c0693 ~]$ ls
+bioinformatics-portfolio  grep_exercise.txt  ondemand  tabatabai.ar
+[tabatabai.ar@c0693 ~]$ 
