@@ -1,0 +1,55 @@
+Last login: Wed Sep 30 23:08:03 on ttys001
+armintabatabai@Armins-Laptop ~ % ls
+Applications		Library			SimUText 2025-2026
+Desktop			Movies			Zotero
+Documents		Music			practiceunix
+Downloads		Pictures
+Games			Public
+armintabatabai@Armins-Laptop ~ % cd practiceunix
+armintabatabai@Armins-Laptop practiceunix % cd ~
+armintabatabai@Armins-Laptop ~ % rmdir practiceunix
+armintabatabai@Armins-Laptop ~ % mkdir unix
+armintabatabai@Armins-Laptop ~ % cd unix 
+armintabatabai@Armins-Laptop unix % touch heaven.txt
+armintabatabai@Armins-Laptop unix % touch earth.txt
+armintabatabai@Armins-Laptop unix % ls
+earth.txt	heaven.txt
+armintabatabai@Armins-Laptop unix % cd ~
+armintabatabai@Armins-Laptop ~ % touch fat fit feet
+armintabatabai@Armins-Laptop ~ % mkdir Temp 2
+armintabatabai@Armins-Laptop ~ % ls
+2			Library			Temp
+Applications		Movies			Zotero
+Desktop			Music			fat
+Documents		Pictures		feet
+Downloads		Public			fit
+Games			SimUText 2025-2026	unix
+armintabatabai@Armins-Laptop ~ % cd Temp 2
+cd: string not in pwd: Temp
+armintabatabai@Armins-Laptop ~ % cd Temp
+armintabatabai@Armins-Laptop Temp % mkdir Temp3
+armintabatabai@Armins-Laptop Temp % cd ~
+armintabatabai@Armins-Laptop ~ % cd unix 
+armintabatabai@Armins-Laptop unix % ls
+earth.txt	heaven.txt
+armintabatabai@Armins-Laptop unix % rm earth.txt
+armintabatabai@Armins-Laptop unix % rm heaven.txt
+armintabatabai@Armins-Laptop unix % cd ~
+armintabatabai@Armins-Laptop ~ % ls    
+2			Library			Temp
+Applications		Movies			Zotero
+Desktop			Music			fat
+Documents		Pictures		feet
+Downloads		Public			fit
+Games			SimUText 2025-2026	unix
+armintabatabai@Armins-Laptop ~ % mkdir Data
+armintabatabai@Armins-Laptop ~ % mkdir Code
+armintabatabai@Armins-Laptop ~ % cd Code
+armintabatabai@Armins-Laptop Code % touch hello.sh
+armintabatabai@Armins-Laptop Code % nano hello.sh
+armintabatabai@Armins-Laptop Code % chmod u+x hello.sh
+armintabatabai@Armins-Laptop Code % ./hello.sh
+Hello World
+armintabatabai@Armins-Laptop Code % #UnixTutorialCompleted
+zsh: command not found: #UnixTutorialCompleted
+armintabatabai@Armins-Laptop Code % 
