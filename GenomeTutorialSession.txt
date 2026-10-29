@@ -1,0 +1,30 @@
+(/courses/BIOL2406.202710/shared/emboss_env) [tabatabai.ar@c0649 GenomicData]$ #I have the Genomes_info file in the directory "GenomicData", and in there is all of the required information. 
+(/courses/BIOL2406.202710/shared/emboss_env) [tabatabai.ar@c0649 GenomicData]$ #The five genome files are all within the "CourseData" directory within my student folder
+(/courses/BIOL2406.202710/shared/emboss_env) [tabatabai.ar@c0649 GenomicData]$ #Question #1 - How many sequence files are in the worm genome?
+(/courses/BIOL2406.202710/shared/emboss_env) [tabatabai.ar@c0649 GenomicData]$ #Answer #1 - Seven sequences
+(/courses/BIOL2406.202710/shared/emboss_env) [tabatabai.ar@c0649 GenomicData]$ #QUestion #2 - How many sequence files are in the Borrelia genome?
+(/courses/BIOL2406.202710/shared/emboss_env) [tabatabai.ar@c0649 GenomicData]$ #Answer #2 - 21 sequence files
+(/courses/BIOL2406.202710/shared/emboss_env) [tabatabai.ar@c0649 GenomicData]$ #Question #3 - Which sequence in the worm genome has the lowest GC%
+(/courses/BIOL2406.202710/shared/emboss_env) [tabatabai.ar@c0649 GenomicData]$ #Answer #3 - Plasmid Ip21 has the lowest at 20.65
+(/courses/BIOL2406.202710/shared/emboss_env) [tabatabai.ar@c0649 GenomicData]$ Question #4 - Which plsmid in Borrelia has the highest GC%?
+bash: Question: command not found
+(/courses/BIOL2406.202710/shared/emboss_env) [tabatabai.ar@c0649 GenomicData]$ #Answer #4 - Plasmid Ip28-1 has the highest GC%
+(/courses/BIOL2406.202710/shared/emboss_env) [tabatabai.ar@c0649 GenomicData]$ #Question #5 - What is interesting about this plasmid?
+(/courses/BIOL2406.202710/shared/emboss_env) [tabatabai.ar@c0649 GenomicData]$ #Answer #5 - It is one of the most biologically important plasmids in the genome
+(/courses/BIOL2406.202710/shared/emboss_env) [tabatabai.ar@c0649 GenomicData]$ #The commands I used were: 'srun --pty bash' = a computing node
+(/courses/BIOL2406.202710/shared/emboss_env) [tabatabai.ar@c0649 GenomicData]$ #I used 'module load anaconda3/2024.06 = a conda environment
+(/courses/BIOL2406.202710/shared/emboss_env) [tabatabai.ar@c0649 GenomicData]$ # I used 'source activate /courses/BIOL2406.202710/shared/emboss_env = activated the conda environment
+(/courses/BIOL2406.202710/shared/emboss_env) [tabatabai.ar@c0649 GenomicData]$ #Finally, I used the infoseq <filename> command to get the information about the genome
+
+
+
+
+
+
+
+
+
+
+
+
+
